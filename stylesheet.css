@@ -1,0 +1,211 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #f4f4f4;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main,
+footer {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  text-align: center;
+  margin: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #161219;
+  display: block;
+}
+
+p,
+a,
+li {
+  font-family: "Montserrat", sans-serif;
+  font-size: medium;
+}
+/*p {
+  font-family: "Libre Baskerville", serif;
+} */
+
+blockquote {
+  font-family: "Montserrat", sans-serif;
+  color: #161219;
+  font-size: x-large;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mainbanner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+  /* max-width: 1462px; */
+}
+
+.maintitle {
+  text-align: center;
+}
+
+.aboutlogo {
+  max-width: 250px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+.aboutpics {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+/* Customer canceled flex - Flex Box Formating */
+.flex-container {
+  display: block;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+.judgemain {
+  /* width: 60%; 
+  min-width: 300px; */
+  /* flex: 1 1 450px; */
+  margin: 5px 5px 5px 5px;
+  padding: 0px 15px 5px 15px;
+}
+aside h2 {
+  color: white;
+  line-height: 0.25;
+}
+
+.asideinfo {
+  /* width: 30%; 
+  min-width: 300px; */
+  /* flex: 1 1 450px; */
+  color: white;
+  background-color: #1d2471;
+  margin: 5px 5px;
+  padding: 5px 15px;
+  text-align: left;
+  font-size: medium;
+}
+
+/* NAVBAR STYLE */
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1d2471;
+}
+
+.navbar a {
+  font-family: "Montserrat", sans-serif;
+  font-size: medium;
+  display: block;
+  color: white;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover:not(.active) {
+  background-color: #161219;
+}
+
+.navbar .right {
+  float: right;
+}
+
+/* Navbar Collapse  */
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {
+    display: none;
+  }
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {
+    position: relative;
+  }
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+  ul.navbar li.right,
+  ul.navbar li {
+    float: none;
+  }
+} */
+
+/* Style social font awesome icons */
+footer .fa {
+  padding: 20px;
+  margin: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
