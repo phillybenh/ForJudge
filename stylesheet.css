@@ -191,6 +191,13 @@ footer .fa {
   text-decoration: none;
 }
 
+.pfb {
+  max-width: 325px;
+  margin: 50px auto;
+  padding: 5px;
+  border: 2px solid #161219;
+}
+
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
