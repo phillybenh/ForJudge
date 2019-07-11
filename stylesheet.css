@@ -10,8 +10,7 @@ body {
   margin: 0;
 }
 
-main,
-footer {
+main {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
